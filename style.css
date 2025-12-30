@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1227;
+  color: #e6e8ff;
+}
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #2a2f57;
+  background: #121533;
+  color: #e6e8ff;
+}
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #7aa2f7;
+  color: #0a0f2b;
+  font-weight: bold;
+  cursor: pointer;
+}
+.card {
+  background: #1b1f3b;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+}
+.hidden {
+  display: none;
+}
+.history ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+.history li {
+  background: #121533;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.error {
+  color: #ff8a8a;
+}
